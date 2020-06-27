@@ -1,0 +1,156 @@
+/* Resposividade */
+@media screen and (min-width: 0px) and (max-width: 550px) {
+  body > div.layout_2 {
+    height: auto;
+  }
+  h1.titulo-2 {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  h3.h3-layout2 {
+    padding: 20px;
+    margin: auto;
+    font-size: 18px;
+  }
+  div.posicao1 {
+    height: 100%;
+    width: 100%;
+  }
+  div.posicao2 {
+    height: 100%;
+    width: 100%;
+  }
+  div.img-position {
+    display: table;
+    float: unset;
+    padding: 20px 50px 20px 50px;
+    margin: auto;
+  }
+  div.p-style {
+    margin: auto;
+    padding: 20px;
+  }
+  div.p-style p {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 800px) {
+  body > div.layout_2 {
+    height: auto;
+  }
+  h1.titulo-2 {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  h3.h3-layout2 {
+    padding: 20px;
+    margin: auto;
+    font-size: 18px;
+  }
+  div.posicao1 {
+    height: 100%;
+    width: 100%;
+  }
+  div.posicao2 {
+    height: 100%;
+    width: 100%;
+  }
+  div.img-position {
+    padding: 20px 30px 20px 50px;
+    margin: auto;
+  }
+  div.p-style {
+    margin: auto;
+    padding: 20px;
+  }
+  div.p-style p {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  h1.titulo-2 {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  h3.h3-layout2 {
+    padding: 20px 100px 20px 100px;
+    margin: auto;
+    font-size: 18px;
+  }
+  div.posicao1 {
+    width: 100%;
+  }
+  div.posicao2 {
+    width: 100%;
+  }
+  div.img-position {
+    margin: auto;
+  }
+  div.p-style {
+    margin: auto;
+    padding-right: 40px;
+  }
+  div.p-style p {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+/* css do layout 2 */
+div.layout_2 {
+  background-color: #ba6a83;
+  height: 730px;
+  margin: 0;
+  width: 100%;
+}
+
+.posicao1 {
+  background-color: #655a7c;
+  height: 240px;
+  width: 100%;
+}
+
+.posicao2 {
+  background-color: #2f5a7c;
+  height: 240px;
+  width: 100%;
+}
+
+.titulo-2 {
+  font-family: roboto-black;
+  font-size: 30px;
+  color: #353a36;
+  margin-left: 270px;
+  line-height: 2;
+}
+
+.h3-layout2 {
+  margin: 0px 270px 58px 270px;
+}
+.h3-layout2 {
+  font-size: 15px;
+  font-family: roboto-bold;
+}
+.img-position {
+  float: left;
+  margin-left: 290px;
+  padding: 30px;
+}
+
+.p-style {
+  margin-left: 560px;
+  margin-right: 310px;
+  padding: 40px 0px 30px 0px;
+}
+.p-style {
+  color: #eee9ef;
+}
+img {
+  object-fit: fill;
+}

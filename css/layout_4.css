@@ -1,0 +1,112 @@
+/* Resposividade */
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  body > div.layout_4 {
+    background-image: url("../img/layout4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+  }
+  div.container4 {
+    margin: 30%;
+    padding: 0;
+    height: auto;
+    width: auto;
+  }
+  div.container4 h1 {
+    margin: 15px;
+    font-size: 30px;
+  }
+  div.container4 p {
+    margin: 15px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  body > div.layout_4 {
+    background-image: url("../img/layout4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+  }
+  div.container4 {
+    margin: 20%;
+    height: auto;
+  }
+  div.container4 h1 {
+    margin: 10px;
+    font-size: 40px;
+  }
+  div.container4 p {
+    margin: 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  body > div.layout_4 {
+    background-image: url("../img/layout4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  div.container4 {
+    margin: 20%;
+    height: auto;
+    width: auto;
+  }
+  div.container4 h1 {
+    margin: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+  div.container4 p {
+    margin: 10px;
+    margin-left: 3px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+/* css do layout 4*/
+
+div.layout_4 {
+  display: table;
+  width: 100vw;
+  height: 580px;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/layout4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container4 {
+  width: 330px;
+  height: auto;
+  position: absolute;
+  margin-top: 109px;
+  margin-left: 315px;
+  padding: 70px 30px 30px 30px;
+}
+
+.container4 {
+  color: #f4faf0;
+  border-radius: 8px;
+  border: 1px solid #6c587b;
+  background-color: #6c587b;
+}
+.container4 h1 {
+  font-weight: bolder;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.container4 p {
+  padding: 0;
+  margin-left: 3px;
+  text-align: left;
+  font-size: 14px;
+}

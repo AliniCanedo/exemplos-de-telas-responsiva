@@ -1,0 +1,48 @@
+/*seta valor padrão das margens*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #675a78;
+  width: 100%;
+}
+
+/*FONTES UTILIZADAS*/
+
+@font-face {
+  font-family: roboto-black;
+  src: url('FONTES/Roboto-Black.ttf');
+}
+@font-face {
+  font-family: roboto-light;
+  src: url('FONTES/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url('FONTES/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url('FONTES/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url('FONTES/Roboto-Medium.ttf');
+}
+
+
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 100vw;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+
+  }
+}
